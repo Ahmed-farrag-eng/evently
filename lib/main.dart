@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       routes: {
         MainLayerScreen.routeName: (context) => MainLayerScreen(),
         LoginScreen.routeName: (_) => LoginScreen(),
-        SingUpScreen.routeName: (_) => SingUpScreen(),
+        SignUpScreen.routeName: (_) => SignUpScreen(),
       },
       initialRoute: LoginScreen.routeName,
     );

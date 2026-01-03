@@ -1,8 +1,8 @@
 import 'package:evently/common/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
-class CoustomOutlinedButton extends StatelessWidget {
-  const CoustomOutlinedButton({super.key, required this.child, this.onPressed});
+class CustomOutlinedButton extends StatelessWidget {
+  const CustomOutlinedButton({super.key, required this.child, this.onPressed});
   final void Function()? onPressed;
   final Widget child;
   @override

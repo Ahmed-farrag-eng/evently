@@ -2,7 +2,7 @@ import 'package:evently/common/theme/app_assets.dart';
 import 'package:evently/common/theme/app_colors.dart';
 import 'package:evently/common/widgets/coustom_main_button.dart';
 import 'package:evently/common/widgets/coustom_outlined_button.dart';
-import 'package:evently/common/widgets/coustom_text_field.dart';
+import 'package:evently/common/widgets/custom_text_field.dart';
 import 'package:evently/screens/auth/sing_up_screen.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -24,11 +24,11 @@ class LoginScreen extends StatelessWidget {
             children: [
               Image.asset(AppAssets.appLogo, width: 140, height: 190),
               SizedBox(height: 8),
-              CoustomTextField(
+              CustomTextField(
                 hintText: "Email",
                 prefixIconPath: AppAssets.emailIconSvg,
               ),
-              CoustomTextField(
+              CustomTextField(
                 hintText: "Password",
                 prefixIconPath: AppAssets.passIconSvg,
               ),
@@ -52,7 +52,7 @@ class LoginScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              CoustomMainButton(
+              CustomMainButton(
                 title: "Login",
                 onPressed: () {
                   // Navigator.pushNamed(context, SingUpScreen.routeName);
@@ -79,7 +79,7 @@ class LoginScreen extends StatelessWidget {
                         ..onTap = () {
                           Navigator.of(
                             context,
-                          ).pushNamed(SingUpScreen.routeName);
+                          ).pushNamed(SignUpScreen.routeName);
                         },
                     ),
                   ],
@@ -99,7 +99,7 @@ class LoginScreen extends StatelessWidget {
                   Expanded(child: Divider(endIndent: 24)),
                 ],
               ),
-              CoustomOutlinedButton(
+              CustomOutlinedButton(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   spacing: 8,

@@ -1,8 +1,8 @@
 import 'package:evently/common/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
-class CoustomMainButton extends StatelessWidget {
-  const CoustomMainButton({super.key, this.onPressed, required this.title});
+class CustomMainButton extends StatelessWidget {
+  const CustomMainButton({super.key, this.onPressed, required this.title});
   final void Function()? onPressed;
   final String title;
 
@@ -20,7 +20,7 @@ class CoustomMainButton extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16),
                 ),
               ),
-              onPressed: () => onPressed,
+              onPressed: onPressed,
               child: Text(
                 title,
                 style: TextStyle(
