@@ -4,6 +4,7 @@ import 'package:evently/common/widgets/coustom_main_button.dart';
 import 'package:evently/common/widgets/coustom_outlined_button.dart';
 import 'package:evently/common/widgets/custom_text_field.dart';
 import 'package:evently/screens/auth/sing_up_screen.dart';
+import 'package:evently/screens/home/main_layer_screen.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -55,7 +56,7 @@ class LoginScreen extends StatelessWidget {
               CustomMainButton(
                 title: "Login",
                 onPressed: () {
-                  // Navigator.pushNamed(context, SingUpScreen.routeName);
+                  Navigator.pushNamed(context, MainLayerScreen.routeName);
                 },
               ),
               Text.rich(

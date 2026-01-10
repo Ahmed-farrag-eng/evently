@@ -2,6 +2,8 @@ class AppAssets {
   static const String appLogo = 'assets/images/Logo.png';
   static const String enIcon = 'assets/icons/EnFlagpng.png';
   static const String arIcon = 'assets/icons/ArFlag.png';
+  static const String lightIcon = 'assets/images/Sun.png';
+  static const String moonIcon = 'assets/images/Moon.png';
   static const String googleIcon = 'assets/icons/google.png';
   static const String emailIconSvg = 'assets/icons/Email.svg';
   static const String passIconSvg = 'assets/icons/passwordIcon.svg';
@@ -21,4 +23,9 @@ class AppAssets {
   static const String meatingImage = 'assets/images/meeting_image.png';
   static const String sportImage = 'assets/images/sport_image.png';
   static const String workShopImage = 'assets/images/workshop_image.png';
+  static const String headerImage = 'assets/images/header.png';
+  static const String onboardingImage1 = 'assets/images/onboarding1.png';
+  static const String onboardingImage2 = 'assets/images/onboarding2.png';
+  static const String onboardingImage3 = 'assets/images/onboarding3.png';
+  static const String onboardingIntro = 'assets/images/onboarding_intro.png';
 }
